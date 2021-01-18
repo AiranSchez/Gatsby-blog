@@ -1,11 +1,11 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: Airan Sanchez Brito
+tagline: Junior Web Developer
+featuredImage: /assets/whatsapp-image-2020-04-14-at-16.48.36.jpeg
 cta:
-  ctaText: Know more
+  ctaText: Sobre mí
   ctaLink: /about
 ---
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+Bienvenido a mi blog personal donde te cuento un poco lo que voy aprendiendo día a día
