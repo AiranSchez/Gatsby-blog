@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Airan Sánchez",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
+    "description": "Mantenido con ❤ por Airán. Plantilla hecha por Stackrole 👌 Iconos gracias a Freepik 🐬",
     "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "image": "/assets/blogging.png",
+    "iconimage": "/assets/blogging.png",
+    "twitterUsername": "@AiranDev"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
