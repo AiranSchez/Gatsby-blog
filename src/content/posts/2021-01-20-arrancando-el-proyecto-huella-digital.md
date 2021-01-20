@@ -2,7 +2,7 @@
 template: blog-post
 title: Arrancando el proyecto Huella Digital
 slug: /OpenSource /HuellaDigital
-date: 2021-01-20 13:22
+date: 2020-06-06 13:22
 description: Instrucciones para empezar con el proyecto Huella Digital
 featuredImage: /assets/teamwork-2499638_1920.jpg
 ---
