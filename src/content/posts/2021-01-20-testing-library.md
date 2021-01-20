@@ -2,7 +2,7 @@
 template: blog-post
 title: Testing Library
 slug: /test
-date: 2020-06-16 13:24
+date: 2020-05-14 13:24
 description: Ejemplos de casos de uso de React Testing Library
 featuredImage: /assets/cover-3.png
 ---
