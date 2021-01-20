@@ -1,10 +1,10 @@
 ---
 template: blog-post
 title: Instalación WSL
-slug: "/WSL "
+slug: /install-wsl
 date: 2020-09-22 13:50
 description: Descripción para la instalación de WSL2
-featuredImage: /assets/wsl.jpg
+featuredImage: /assets/1_hv7hbkxposnyzt5-pv8fjq.png
 ---
 Uno de los mayores desacuerdos con los que me he encontrado en mi corto recorrido en el mundo del desarrollo es si utilizar windows o linux. La mayoría utiliza la segunda opción pero muchos aún utilizan Windows por otros motivos y no hacen uso de Linux con frecuencia. Por ello Microsoft desarrollo WSL (Windows Subsistem for Linux) el cual nos permite emular un Linux dentro de Windows.
 
