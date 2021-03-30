@@ -4,7 +4,7 @@ title: Loopback + mongo
 slug: /mongo /loopback /docker
 date: 2021-03-29 15:35
 description: API hecha con loopback4 y mongodb dockerizado
-featuredImage: /assets/loopback-sm.png
+featuredImage: /assets/loopback-4-logo-sample.png
 ---
 
 
@@ -98,7 +98,6 @@ npm start
        super(User, dataSource);
      }
    }
-
    ```
 5. llb4 controller ➡Aquí viene lo bueno. Te crea métodos GET, POST, PUT, PATCH y DELETE de cada una de las propiedades de tu modelo. Te pide modelo, repositorio, propiedad por la que se distinguirán los endpoints (/users/id por ejemplo)
 
@@ -143,6 +142,8 @@ Si poseemos la aplicación oficial de mongodb se nos facilitaría mucho la gesti
 
 Lo importante de dockerizar esta app recae en tener un script de creación de usuario y contraseña para que no hayan problemas de autenticación en la base de datos y pueda crear la tabla.
 
+Así al realizar `docker-compose up` se levantaría el mongo y crearía un usuario con permisos para administrar la base de datos que queremos y hemos indicado en el docker-compose.
+
 Aquí dejo el docker-compose: 
 
 ```dockerfile
@@ -163,5 +164,19 @@ services:
     restart: unless-stopped
 volumes:
   mongodb:
+```
 
+Y el script de mongo: 
+
+```javascript
+db.createUser(
+  { 
+    user: "leanmind", 
+    pwd: "root", 
+    roles: [
+      "dbAdmin", 
+      "readWrite"
+    ]
+  }
+);
 ```
